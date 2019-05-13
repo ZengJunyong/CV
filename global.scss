@@ -1,63 +1,68 @@
 body, html {
-  margin: 0;
-  padding: 0;
-  font-family: 'Roboto', arial, sans-serif;
-  line-height: 1.2;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.2;
 }
 
 a {
-  color: blue;
+    color: blue;
 }
 
 body {
-  display: flex;
-  justify-content: center;
+    display: flex;
+    justify-content: center;
 }
 
 h1 {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 
-  a {
-    font-size: 14px;
-    font-weight: normal;
-  }
+    a {
+        font-size: 14px;
+        font-weight: normal;
+    }
 
-  .email {
-    color: white;
-    background: black;
-    padding: 5px;
-    border-radius: 4px;
-  }
+    .email {
+        color: white;
+        background: black;
+        padding: 5px;
+        border-radius: 4px;
+    }
 
-  .lan{
+    .lan {
 
-  }
+    }
 }
 
 .container {
-  max-width: 600px;
-  width: 100%;
-  padding: 15px;
+    max-width: 600px;
+    width: 100%;
+    padding: 15px;
 }
 
 ul {
-  ol {
-    color: white;
-    padding: 0;
-  }
+    ol {
+        color: white;
+        padding: 0;
+    }
+
+    li {
+        list-style: none;
+        line-height: 1.5;
+    }
 }
 
 table {
-  font-weight: normal;
-  width: 100%;
-  padding: 8px 15px;
-  font-size: 14px;
+    font-weight: normal;
+    width: 100%;
+    padding: 8px 15px;
+    font-size: 14px;
 
-  tr {
-    td:nth-child(2) {
-      letter-spacing: 8px;
+    tr {
+        td:nth-child(2) {
+            letter-spacing: 8px;
+        }
     }
-  }
 }
